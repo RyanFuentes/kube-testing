@@ -1,3 +1,3 @@
-FROM --platform=linux/amd64 node:10-alpine
+FROM node:7
 ADD app.js /app.js
 ENTRYPOINT [ "node", "app.js" ]
